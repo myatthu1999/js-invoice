@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Padauk:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap');
+
+$font-family-sans-serif : 'Roboto','Padauk', sans-serif;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+.del-btn{
+    display: none;
+    font-size: 10px;
+    transition: 0.5s;
+}
+
+#rows tr:hover .del-btn{
+    display: block;
+}
+
